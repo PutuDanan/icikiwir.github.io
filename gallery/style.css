@@ -1,0 +1,195 @@
+:root {
+    --pr-color : #227C70;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E6E2C3;
+}
+
+/* navbar */
+.navbar {
+    z-index: 3;
+    top: 0;
+}
+.nav-color {
+    background: var(--pr-color);
+    transition: all .2s ease-in;
+}
+.bg-transparent {
+    transition: all .2s ease-in;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 32px;
+}
+.navbar-brand img {
+    width: 50px;
+}
+.img-hero {
+    z-index: 1;
+}
+.nav-link.active {
+    font-weight: 600;
+    font-size: 16px;
+}
+button a {
+    text-decoration: none;
+    color: var(--pr-color);
+}
+button a:hover {
+    color: #1C315E;
+}
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+/* kontak */
+#kontak {
+    background-image: url(../img/kontak-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#kontak .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+#kontak .container {
+    padding: 148px 0 148px 0;
+}
+#kontak h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+#kontak h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 19px 0 14px 0;
+}
+.kontak a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    margin-left: 18px;
+}
+.card-kontak {
+    width: 100%;
+    height: 445px;
+    background-color: #fff;
+    padding: 52px 48px;
+}
+.card-kontak h2 {
+    color: var(--pr-color);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.form-controls {
+    background: #d9d9d9;
+    height: 75px;
+}
+.form-floating label {
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+.button-kontak {
+    width: 100%;
+    height: 75px;
+    background: var(--pr-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 270px;
+    background: #1C315E;
+}
+.copyright {
+    bottom: 1%;
+    color: #d1d1d1;
+    font-size: 14px;
+    line-height: 21px;
+}
+footer a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--pr-color);
+}
+footer img {
+    width: 40px;
+}
+
+.logo-nusa {
+    font-size: 32px;
+}
+
+#gallery .container {
+    position: relative;
+    margin-top: 10px;
+    padding: 3rem;
+}
+
+#gallery h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+.image {
+    display: block;
+    width: 100%;
+}
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.caption {
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+}
+.thumbnail:hover {
+    transform: translateY(-4px);
+}
+.img-container:hover .overlay {
+    opacity: 1;
+}

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link Responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Link Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Link Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo3.svg">
+
+    <!-- Link Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+    <title>Let's Nan</title>
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="font-family: 'Alex Brush', cursive;">
+            <img src="img/logo3.svg" alt="" class="d-inline-block align-items-center me-3">
+            Nusa Island</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#hero">HOME</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" href="#layanan">ABOUT</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" href="#fitur">OBJEK</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" href="#rekomendasi">AKOMODASI</a>
+              </li>
+            </ul>
+            <div>
+                <button class="button-primary"><a href="login/index1.html">Daftar</a></button>
+                <button class="button-secondary"><a href="login/index.html">Masuk</a></button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- home start -->
+      <section id="hero">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 hero-tagline my-auto">
+                    <h1 class="mt-5">Ayo Kunjungi
+                      <br>Pulau Nusa</h1>
+                    <p class="text-1">Mengenal kata<span class="fw-bold"> Nusa</span> sudah tidak asing di Indonesia kata lain dari Nusantara. Tapi kali ini Nusa yang kita kunjungi adalah sebuah pulau kecil yang indah dan mempesona. Oleh Karena itu...</p>
+                    <p class="text-2">
+                      Pulau Bali dijuluki sebagai The Island of Gods, Bali memiliki beragam pilihan aktivitas yang bisa dicoba. Mulai dari kegiatan ekstrem hingga sekadar duduk-duduk sambil menikmati angin di bibir pantai.
+                    </p>
+                    <button class="button-lg-primary" id="show">Selengkapnya
+                    </button>
+                </div>
+            </div>
+
+            <img src="img/hero2.svg" alt="" class="position-absolute end-0 bottom-0 img-hero">
+        </div>
+      </section>
+
+      <!-- about start -->
+      <section id="layanan">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2>Ayo Explore Lebih Dalam Lagi</h2>
+              <span class="sub">Liburan terbukti dapat mengurangi tingkat stres, memulihkan kondisi tubuh dan pikiran (recovery), serta meningkatkan kesejahteraan kamu. Liburan yang dimaksud tak melulu harus mewah seperti ke luar negeri. Cukup melakukan staycation di tempat kamu tinggal juga bisa dihitung.
+                <br>
+                Saya akan membagikan sedikit pengalaman tentang liburan di Pulau ini.</span>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4 text-center">
+              <div class="card-layanan">
+                <div class="circle-icon position-relative mx-auto">
+                  <a href="gallery/index.html"><img src="img/about1.svg" alt="" class="position-absolute top-50 start-50 translate-middle"></a>
+                </div>
+                <h3 class="mt-4">Gallery</h3>
+                <p class="mt-3">Ini adalah beberapa foto yang saya ambil dalam perjalanan saya yang tengah asik mengeksplore pulau nusa yang indah ini.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+              <div class="card-layanan">
+                <div class="circle-icon position-relative mx-auto">
+                  <a href="video/index.html"><img src="img/about2.svg" alt="" class="position-absolute top-50 start-50 translate-middle"></a>
+                </div>
+                <h3 class="mt-4">Video</h3>
+                <p class="mt-3">Anda bisa menikmati video yang saya tampilkan sembari anda memesan tiket untuk mengunjungi tempat ini, mungkin? Tapi saya pastikan tak akan menyesal.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+              <div class="card-layanan">
+                <div class="circle-icon position-relative mx-auto">
+                  <a href="map/index.html"><img src="img/about3.svg" alt="" class="position-absolute top-50 start-50 translate-middle"></a>
+                </div>
+                <h3 class="mt-4">Maps</h3>
+                <p class="mt-3">Jangan khawatir tersesat, karena saya akan membantumu dalam mengeksplore Pulau Nusa. Ayo, akan kutunjukkan jalan menuju pulau ini.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- search start -->
+      <section id="search" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2>Cari Tahu</h2>
+              <p>Malu bertanya sesat di jalan. Jika anda ingin tahu lagi tentang sesuatu yang sangat menarik, gunakan saja tombol search di bawah ini. Kamu hanya mengetikkan beberapa kata dan biarkan mereka mencarinya.</p>
+            </div>
+
+            <div class="col-10 mx-auto mt-5">
+              <ul class="nav nav-tabs" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#jual" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Destinasi</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#sewa" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Penginapan</button>
+                </li>
+              </ul>
+    
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="jual" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <!-- dropdown tipe -->
+                  <div class="input-group input-cari mb-3">
+                    <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tipe</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    <!-- dropdown harga -->
+                      <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Range Harga</button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                      </ul>
+                      <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Cari berdasarkan lokasi, ID, Property">
+                      <button class="button-primary" type="button" id="button-addon2">Cari</button>
+                    </div>
+                    
+                </div>
+    
+                <div class="tab-pane fade" id="sewa" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                  <!-- dropdown tipe -->
+                  <div class="input-group input-cari mb-3">
+                    <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tipe</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    <!-- dropdown harga -->
+                      <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Range Harga</button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                      </ul>
+                      <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Cari berdasarkan lokasi, ID, Property">
+                      <button class="button-primary" type="button" id="button-addon2">Cari</button>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </section>
+
+      <!-- objek start -->
+      <section id="objek">
+        <div class="container-fluid my-5">
+            <h2 class="text-center fw-bold display-1 mb-5">Objek <span style="color: #227C70;">Wisata</span></h2>
+            <div class="row">
+                <div class="col-12 m-auto">
+                    <div class="owl-carousel owl-theme">
+    
+                        <div class="item me-3 position-relative mb-4">
+                            <div class="card-objek border-0 ">
+                                <img src="img/objek1.svg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                          <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                            <h5>Kelingking Beach</h5>
+                                            <span>Dusun Karang Dawa, Desa Bunga Mekar, Kecamatan Nusa Penida.</span>
+                                            <h6 class="mt-5">IDR.200.000</h6>
+                                            <button>Lihat</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="item me-3 position-relative">
+                            <div class="card-objek border-0 ">
+                                <img src="img/objek2.svg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                          <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                            <h5>Kelingking Beach</h5>
+                                            <span>Dusun Karang Dawa, Desa Bunga Mekar, Kecamatan Nusa Penida.</span>
+                                            <h6 class="mt-5">IDR.200.000</h6>
+                                            <button>Lihat</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item me-3 position-relative">
+                            <div class="card-objek border-0 ">
+                                <img src="img/objek3.svg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                          <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                            <h5>Kelingking Beach</h5>
+                                            <span>Dusun Karang Dawa, Desa Bunga Mekar, Kecamatan Nusa Penida.</span>
+                                            <h6 class="mt-5">IDR.200.000</h6>
+                                            <button>Lihat</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item me-3 position-relative">
+                            <div class="card-objek border-0 ">
+                                <img src="img/objek4.svg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                          <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                            <h5>Kelingking Beach</h5>
+                                            <span>Dusun Karang Dawa, Desa Bunga Mekar, Kecamatan Nusa Penida.</span>
+                                            <h6 class="mt-5">IDR.200.000</h6>
+                                            <button>Lihat</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item me-3 position-relative">
+                            <div class="card-objek border-0 ">
+                                <img src="img/objek5.svg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                          <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                            <h5>Kelingking Beach</h5>
+                                            <span>Dusun Karang Dawa, Desa Bunga Mekar, Kecamatan Nusa Penida.</span>
+                                            <h6 class="mt-5">IDR.200.000</h6>
+                                            <button>Lihat</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item me-3 position-relative">
+                            <div class="card-objek border-0 ">
+                                <img src="img/objek6.svg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+                                          <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                                            <h5>Kelingking Beach</h5>
+                                            <span>Dusun Karang Dawa, Desa Bunga Mekar, Kecamatan Nusa Penida.</span>
+                                            <h6 class="mt-5">IDR.200.000</h6>
+                                            <button>Lihat</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- akomodasi start -->
+      <section id="rekomendasi" class="mt-5">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-12 text-center mt-3">
+              <h2>Rekomendasi Villa Untuk Mu</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="img/req1.svg" alt="">
+                <div class="card-body">
+                  <h4>Villa Mimpi Manis</h4>
+                  <p class="mb-4 lh-sm"><a href="https://www.booking.com/hotel/id/mimpi-manis-villa.id.html?aid=356980&label=gog235jc-1DCAsoaEIRbWltcGktbWFuaXMtdmlsbGFIElgDaGiIAQGYARK4ARfIAQzYAQPoAQH4AQKIAgGoAgO4ArvurJ4GwAIB0gIkYTQ5ZjMzYTUtNGEzNC00Mjk4LWJlNzctY2MxMmUzMzIyMmM02AIE4AIB&all_sr_blocks=44071501_118979950_4_0_0;checkin=2023-01-25;checkout=2023-01-26;dest_id=-2684938;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=44071501_118979950_4_0_0;hpos=1;matching_block_id=44071501_118979950_4_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=44071501_118979950_4_0_0__122925100;srepoch=1674264277;srpvid=690509e9aac300af;type=total;ucfs=1&#hotelTmpl">Jungutbatu, Kec. Nusa Penida</a> <br> 
+                  <span class="text-success">IDR.1.229.000</span></p>
+                </div>
+
+                <div class="card-fasilitas d-flex justify-content-between px-4">
+                  <span>
+                    <img src="img/bed.svg" alt=""> 2
+                    <p>Kamar Tidur</p>
+                  </span>
+                  <span>
+                    <img src="img/bath.svg" alt=""> 2
+                    <p>Kamar Mandi</p>
+                  </span>
+                  <span>
+                    <img src="img/wide.svg" alt=""> 100m<sup>2</sup>
+                    <p>Luas Rumah</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="img/req2.svg" alt="">
+                <div class="card-body">
+                  <h4>Poh Manis Lembongan</h4>
+                  <p class="mb-4 lh-sm"><a href="https://www.booking.com/hotel/id/poh-manis-lembongan.id.html?aid=331509&label=poh-manis-lembongan-z%2ARbe_e6jha_0RKgmM%2AkNQS589107508001%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-146342138710%3Akwd-54653552648%3Alp9072529%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf5EcukO1MOGacJaEmJ5thA&all_sr_blocks=59152901_110860367_0_1_0;checkin=2023-01-25;checkout=2023-01-26;dest_id=-2684938;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=59152901_110860367_0_1_0;hpos=1;matching_block_id=59152901_110860367_0_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=59152901_110860367_0_1_0__44500000;srepoch=1674269190;srpvid=e1fd13821cf600f3;type=total;ucfs=1&#hotelTmpl">Jungutbatu, Kec. Nusa Penida</a> <br> <span class="text-success">IDR.440.000</span></p>
+                </div>
+
+                <div class="card-fasilitas d-flex justify-content-between px-4">
+                  <span>
+                    <img src="img/bed.svg" alt=""> 1
+                    <p>Kamar Tidur</p>
+                  </span>
+                  <span>
+                    <img src="img/bath.svg" alt=""> 1
+                    <p>Kamar Mandi</p>
+                  </span>
+                  <span>
+                    <img src="img/wide.svg" alt=""> 28m<sup>2</sup>
+                    <p>Luas Rumah</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="img/req3.svg" alt="">
+                <div class="card-body">
+                  <h4>Villa Victoria</h4>
+                  <p class="mb-4 lh-sm"><a href="https://www.booking.com/hotel/id/villa-victoria-kabupaten-klungkung.id.html?aid=356980&label=gog235jc-1DCAsoaEIidmlsbGEtdmljdG9yaWEta2FidXBhdGVuLWtsdW5na3VuZ0gSWANoaIgBAZgBErgBF8gBDNgBA-gBAfgBAogCAagCA7gC2IutngbAAgHSAiQxY2Q0MTczOS01MWYyLTQ1YTctOTNiNy00OTljNzU4OTE2YjTYAgTgAgE&checkin_month=1&checkin_monthday=26&checkin_year=2023&checkout_month=1&checkout_monthday=27&checkout_year=2023&dist=0&do_availability_check=1&group_adults=2&group_children=0&hp_avform=1&hp_group_set=0&hp_sbox=1&no_rooms=1&origin=hp&sb_price_type=total&src=hotel&type=total&#availability_target">Jl. Raya Batumulapan, Kec. Nusa Penida</a> <br> <span class="text-success">IDR.2.300.000</span></p>
+                </div>
+
+                <div class="card-fasilitas d-flex justify-content-between px-4">
+                  <span>
+                    <img src="img/bed.svg" alt=""> 2
+                    <p>Kamar Tidur</p>
+                  </span>
+                  <span>
+                    <img src="img/bath.svg" alt=""> 1
+                    <p>Kamar Mandi</p>
+                  </span>
+                  <span>
+                    <img src="img/wide.svg" alt=""> 280m<sup>2</sup>
+                    <p>Luas Rumah</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="img/req4.svg" alt="">
+                <div class="card-body">
+                  <h4>Villa Voyage</h4>
+                  <p class="mb-4 lh-sm"><a href="https://www.booking.com/hotel/id/villa-voyage.id.html#hp_facilities_box">Jungutbatu, Kabupaten Klungkung</a> <br> <span class="text-success">IDR.2.600.000</span></p>
+                </div>
+
+                <div class="card-fasilitas d-flex justify-content-between px-4">
+                  <span>
+                    <img src="img/bed.svg" alt=""> 5
+                    <p>Kamar Tidur</p>
+                  </span>
+                  <span>
+                    <img src="img/bath.svg" alt=""> 5
+                    <p>Kamar Mandi</p>
+                  </span>
+                  <span>
+                    <img src="img/wide.svg" alt=""> 300m<sup>2</sup>
+                    <p>Luas Rumah</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="img/req5.svg" alt="">
+                <div class="card-body">
+                  <h4>Villa Bukit</h4>
+                  <p class="mb-4 lh-sm"><a href="https://www.booking.com/hotel/id/villa-bukit-nusa-lembongan.id.html">Jungutbatu, Nusa Lembongan</a> <br> <span class="text-success">IDR.3.045.000</span></p>
+                </div>
+
+                <div class="card-fasilitas d-flex justify-content-between px-4">
+                  <span>
+                    <img src="img/bed.svg" alt=""> 2
+                    <p>Kamar Tidur</p>
+                  </span>
+                  <span>
+                    <img src="img/bath.svg" alt=""> 2
+                    <p>Kamar Mandi</p>
+                  </span>
+                  <span>
+                    <img src="img/wide.svg" alt=""> 210m<sup>2</sup>
+                    <p>Luas Rumah</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="img/req6.svg" alt="">
+                <div class="card-body">
+                  <h4>Villa Puaji Lembongan</h4>
+                  <p class="mb-4 lh-sm"><a href="https://www.booking.com/hotel/id/villa-puaji.id.html?aid=2285040&label=1674269000.269966&checkin=2023-01-21;checkout=2023-01-22;dest_id=-2684938;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1674269001;srpvid=4d2e1324a60b0056;type=total;ucfs=1&#no_availability_msg">Jl. Jungutbatu, Nusa Lembongan</a> <br> <span class="text-success">IDR.1.600.000</span></p>
+                </div>
+
+                <div class="card-fasilitas d-flex justify-content-between px-4">
+                  <span>
+                    <img src="img/bed.svg" alt=""> 3
+                    <p>Kamar Tidur</p>
+                  </span>
+                  <span>
+                    <img src="img/bath.svg" alt=""> 2
+                    <p>Kamar Mandi</p>
+                  </span>
+                  <span>
+                    <img src="img/wide.svg" alt=""> 80m<sup>2</sup>
+                    <p>Luas Rumah</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- kontak start -->
+      <section id="kontak">
+        <div class="container-fluid overlay h-100">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Butuh Konsultasi...?
+                    Silahkan kontak Kami
+                    Kami Siap Membantu</h3>
+                <div class="kontak">
+                  <h6>Kontak</h6>
+                  <div class="mb-2">
+                    <i class="fa-sharp fa-solid fa-location-dot fs-4 text-light"></i>
+                    <a href="#">Jl. Batu Belig No.4 Kerobokan Kelod</a>
+                  </div>
+                  <div class="mb-2">
+                    <i class="fa-solid fa-phone fs-4 text-light"></i>
+                    <a href="#">+6281337777111</a>
+                  </div>
+                  <div class="mb-2">
+                    <i class="fa-solid fa-envelope fs-4 text-light"></i>
+                    <a href="#">dananputu11@gmail.com</a>
+                  </div>
+                </div>
+                <h6>Social Media</h6>
+                  <a href="https://www.facebook.com/profile.php?id=100075548855549" class="me-lg-3 me-1"><i class="fa-brands fa-facebook fs-3 text-light"></i></a>
+                  <a href="https://twitter.com/PutuDaMar3" class="me-lg-3 me-1"><i class="fa-brands fa-twitter fs-3 text-light"></i></a>
+                  <a href="https://www.instagram.com/dananmhrdk_/?hl=id" class="me-lg-3 me-1"><i class="fa-brands fa-instagram fs-3 text-light"></i></a>
+                  <a href="https://github.com/PutuDanan" class="me-lg-3 me-1"><i class="fa-brands fa-github fs-3 text-light"></i></a>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card-kontak w-100">
+                  <form>
+                    <h2>Ada Pertanyaan..?</h2>
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput" class="d-flex align-items-center">Masukkan Email Anda</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput" class="d-flex align-items-center">Pertanyaan Anda</label>
+                    </div>
+
+                    <button type="submit" class="button-kontak">Kirim</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer start-->
+      <footer class="d-flex align-items-center position-relative">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 d-flex align-items-center justify-content-lg-start justify-content-center">
+                <img src="img/logo3.svg" alt="">
+                <a href="#" class="ms-3 logo-nusa" style="font-family: 'Alex Brush', cursive;">Nusa Island</a>
+              </div>
+              <div class="col-md-5 d-flex justify-content-evenly justify-content-center">
+                <a href="#hero">Home</a>
+                <a href="#layanan">About</a>
+                <a href="#fitur">Objek</a>
+                <a href="#rekomendasi">Akomodasi</a>
+              </div>
+            </div>
+            <div class="row position-absolute copyright start-50 translate-middle">
+              <div class="col-12">
+                <p class="text-center font-family: 'Poppins', sans-serif;"><i class="fa-regular fa-copyright"></i> Copyright 2022 By Pria Idaman</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- Script JS -->
+    <script type="text/javascript" src="script.js"></script>
+    
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+</html>
